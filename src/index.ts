@@ -8,7 +8,7 @@ import { registerDeleteMemory } from "./tools/delete-memory/index.js";
 
 // Create MCP server
 const server = new McpServer({
-    name: "memory-server",
+    name: "local-mcp-server",
     version: "0.1.0",
 });
 
